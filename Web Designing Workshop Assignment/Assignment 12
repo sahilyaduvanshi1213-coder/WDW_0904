@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  caption {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <caption>Student Marks</caption>
+  <tr>
+    <th>Roll</th>
+    <th>Name</th>
+    <th>Marks</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Aman</td>
+    <td>85</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Riya</td>
+    <td>92</td>
+  </tr>
+  <tr>
+    <td colspan="2">Average</td>
+    <td>88.5</td>
+  </tr>
+</table>
+
+</body>
+</html>
+      
